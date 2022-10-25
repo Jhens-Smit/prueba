@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php 
-include("modelo/bd.php");
+include("../modelo/bd.php");
 ?>
 <html lang="es">
 <head>
