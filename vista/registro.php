@@ -12,17 +12,19 @@ include("../modelo/bd.php");
 <body>
     <h1><center>Registrarse</h1>
     <center>
+    <form method="POST" name="form-work" action="insertar.php">
     <h4>Por favor ingresar sus datos: </h4>
-    <h5>Nombres: <input type="text"></h5>
-    <h5>Apellido Paterno: <input type="text"></h5>
-    <h5>Apellido Materno: <input type="text"></h5>
-    <h5>DNI: <input type="text"></h5>
-    <h5>Edad: <input type="text"> </h5>
-    <h5>Dirección: <input type="text"> </h5>
-    <h5>Correo: <input type="text"> </h5>
-    <h5>Contraseña: <input type="password"> </h5>
+    <h5>Nombres: <input name="nombre" type="text"></h5>
+    <h5>Apellido Paterno: <input name="apellido_p" type="text"></h5>
+    <h5>Apellido Materno: <input name="apellido_m" type="text"></h5>
+    <h5>DNI: <input name="dni" type="text"></h5>
+    <h5>Edad: <input name="edad" type="text"> </h5>
+    <h5>Dirección: <input name="direccion" type="text"> </h5>
+    <h5>Correo: <input name="correo" type="text"> </h5>
+    <h5>Contraseña: <input name="contraseña" type="password"> </h5>
+    <input type="submit" value="Realizar Registro" ></a>
     <a href="inicio.php"><input type="button" value="Volver a Iniciar Sesión" ></a>
-    <a href="inicio.php"><input type="button" value="Realizar Registro" ></a>
+    </form>
 </center>
 </body>
 </html>
